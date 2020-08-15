@@ -1,0 +1,13 @@
+.teams {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.teams .teams-item {
+  max-width: 18rem;
+}
+
+.teams .teams-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
