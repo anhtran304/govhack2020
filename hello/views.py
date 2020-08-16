@@ -9,6 +9,11 @@ def index(request):
     return render(request, "index.html")
 
 
+def details(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "details.html")
+
+
 def results(request):
 
     greeting = Greeting()
