@@ -14,6 +14,11 @@ def details(request):
     return render(request, "details.html")
 
 
+def sharestory(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "sharestory.html")
+
+
 def results(request):
 
     greeting = Greeting()
