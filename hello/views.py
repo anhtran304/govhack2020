@@ -3,9 +3,12 @@ from django.http import HttpResponse
 
 from .models import Greeting
 
+from .twitterlearning import learning
+
 # Create your views here.
 def index(request):
     # return HttpResponse('Hello from Python!')
+    # learning()
     return render(request, "index.html")
 
 
