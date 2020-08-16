@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 from .models import Greeting
 
-from .twitterlearning import learning
+# from .twitterlearning import learning
 
 # Create your views here.
 def index(request):
