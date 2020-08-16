@@ -32,9 +32,10 @@ class DenseTransformer(TransformerMixin):
         return X.todense()
 
 
-def learning:
+def learning():
+  print('Ok')
   # Reading dataset from csv file
-  dataset = pd.read_csv("data.csv", delimiter=";", names=['content', 'tag'])
+  dataset = pd.read_csv(os.path.join(BASE_DIR, "/static/data/data.csv", delimiter=";", names=['content', 'tag'])
 
   # Dowload stopwords function from nlkt package to remove all stopwords
   nltk.download('stopwords')
