@@ -1,0 +1,70 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<link href="/static/css/details.css" rel="stylesheet">
+
+<div class="container">
+  <div class="post-card">
+    <div class="post-card__nav">
+      <ul>
+        <li>
+          <a href="#" class="active"><i class="ion ion-ios-eye"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ion ion-ios-location"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ion ion-android-star"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="post-card__content">
+      <div class="post-card__info">
+        <h1>My most favorite place in the world</h1>
+        <h5>184&nbsp;<span>Reviews</span></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas doloribus dolorum ratione optio. Tenetur id
+          fugiat totam, ducimus velit? Officia mollitia reiciendis ipsum!</p>
+        <a href="#">Read more</a>
+      </div>
+
+    </div>
+    <div class="post-card__img" id="post-card__img">
+      <div class="post-card__social">
+        <ul>
+          <li>
+            <a href="#"><i class="ion ion-chatbox"></i><span>736</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="ion ion-heart"></i><span>1025</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var imgs = [
+    'http://jazztravels.com/wp-content/uploads/2015/07/313.jpg',
+    'https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cea32ac97f8ffde3f76df4a646ac8b4d&auto=format&fit=crop&w=1350&q=80',
+    'http://www.freenaturewallpapers.org/nature_wallpapers/image/Nature_Photo_Wallpaper.jpg'
+  ];
+  var x = 0;
+
+  function changeImage() {
+
+    var imgElement = document.getElementsByClassName('post-card__img');
+    imgElement[0].style.backgroundImage = "url('" + imgs[x] + "')";
+
+    x++;
+
+    if (x >= imgs.length) {
+      x = 0;
+    }
+
+    setTimeout("changeImage()", 4000);
+
+  }
+
+
+  changeImage();
+</script>
+{% endblock %}
