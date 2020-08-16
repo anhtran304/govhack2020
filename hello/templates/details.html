@@ -1,0 +1,167 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<link href="/static/css/details.css" rel="stylesheet">
+
+<div class="container-fluid px-0 py-5 mx-auto">
+  <div class="row justify-content-center mx-0 mx-md-auto">
+    <div class="col-lg-10 col-md-11 px-1 px-sm-2">
+      <div class="card border-0 px-3">
+        <!-- top row -->
+        <div class="d-flex row py-5 px-5 bg-light">
+          <div class="green-tab p-2 px-3 mx-2">
+            <p class="sm-text mb-0">ALL STORIES</p>
+            <h4>124</h4>
+          </div>
+          <div class="white-tab p-2 mx-2 text-muted">
+            <p class="sm-text mb-0">ADD TO ROUTE COUNT</p>
+            <h4>200</h4>
+          </div>
+          <!-- <div class="white-tab p-2 mx-2">
+                      <p class="sm-text mb-0 text-muted">POSITIVE REVIEWS</p>
+                      <h4 class="green-text">93%</h4>
+                  </div> -->
+
+          <div class="ml-md-auto p-2 mx-md-2 pt-4 pt-md-3">
+            <button class="btn px-4">ADD TO ROUTE</button>
+            <button class="btn btn-red px-4">SHARE YOUR STORY</button>
+          </div>
+        </div> <!-- middle row -->
+        <div class="row bg-light">
+          <div class="col-md-2 col-4 text-center block py-5">
+            <div class="round-icon"> <img src="https://i.imgur.com/8lJt6UN.png" width="50px" height="50px"> </div>
+            <p class="sm-text-1 grey-text mb-0">100</p>
+            <div class="fa fa-circle green-dot"></div>
+            <div class="fa fa-circle green-dot"></div>
+            <div class="fa fa-circle green-dot"></div>
+            <div class="fa fa-circle green-dot"></div>
+            <div class="fa fa-circle green-dot"></div>
+          </div>
+          <div class="col-md-2 col-4 text-center block py-5">
+            <div class="round-icon"> <img src="https://i.imgur.com/Grjnbah.png" width="50px" height="50px"> </div>
+            <p class="sm-text-1 grey-text mb-0">100</p>
+            <div class="fa fa-circle red-dot"></div>
+            <div class="fa fa-circle red-dot"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+          </div>
+          <div class="col-md-2 col-4 text-center block py-5">
+            <div class="round-icon"> <img src="https://i.imgur.com/q2v8mqu.png" width="50px" height="50px"> </div>
+            <p class="sm-text-1 grey-text mb-0">100</p>
+            <div class="fa fa-circle yellow-dot"></div>
+            <div class="fa fa-circle yellow-dot"></div>
+            <div class="fa fa-circle yellow-dot"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+          </div>
+          <div class="col-md-2 col-4 text-center block py-5">
+            <div class="round-icon"> <img src="https://i.imgur.com/EkmVVM1.png" width="50px" height="50px"> </div>
+            <p class="sm-text-1 grey-text mb-0">100</p>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+          </div>
+          <div class="col-md-2 col-4 text-center block py-5">
+            <div class="round-icon"> <img src="https://i.imgur.com/ZbZzavI.png" width="50px" height="50px"> </div>
+            <p class="sm-text-1 grey-text mb-0">100</p>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+          </div>
+          <div class="col-md-2 col-4 text-center block py-5">
+            <div class="round-icon"> <img src="https://i.imgur.com/S6SGKFQ.png" width="50px" height="50px"> </div>
+            <p class="sm-text-1 grey-text mb-0">100</p>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+            <div class="fa fa-circle"></div>
+          </div>
+        </div> <!-- Review by user -->
+        <div class="review p-5">
+          <div class="row d-flex">
+            <div class="profile-pic"><img src="https://i.imgur.com/Mcd6HIg.jpg" width="60px" height="60px"></div>
+            <div class="d-flex flex-column pl-3">
+              <h4>Emily</h4>
+              <p class="grey-text">30 min ago</p>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <div class="green-text">
+              <h5 class="mb-0 pl-3">Best staffs ever!</h5>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <p>
+              The staff are helpful and will answer any questions you might have. The gardens are kept beautiful. The
+              guides are very informative. It is an eye opener as to what was going on here and to hear about the
+              convicts and how they lived all those years ago.
+            </p>
+          </div>
+          <div class="row ml-1">
+            <div class="row bg-light via">
+              <div class="px-2"><img src="https://i.imgur.com/8lJt6UN.png" width="18px" height="18px"></div>
+              <p class="grey-text mb-0 px-3">via Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review p-5">
+          <div class="row d-flex">
+            <div class="profile-pic"><img src="https://i.imgur.com/Mcd6HIg.jpg" width="60px" height="60px"></div>
+            <div class="d-flex flex-column pl-3">
+              <h4>Dung Nguyen</h4>
+              <p class="grey-text">30 min ago</p>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <div class="green-text">
+              <h5 class="mb-0 pl-3">The Story</h5>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <p>
+              The Port Arthur penal settlement began life as a small timber station in 1830 and quickly grew in importance within the colonies. Shipbuilding was introduced on a large scale to Port Arthur as a way of providing selected convicts with a useful skill they could take with them once freed. The 1853 cessation of transportation resulted in fewer transportees arriving at the station. However, the 1850s and 1860s were years of remarkable activity, that aimed to make the station economically sustainable.
+            </p>
+          </div>
+          <div class="row ml-1">
+            <div class="row bg-light via">
+              <div class="px-2"><img src="https://i.imgur.com/8lJt6UN.png" width="18px" height="18px"></div>
+              <p class="grey-text mb-0 px-3">via Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review p-5">
+          <div class="row d-flex">
+            <div class="profile-pic"><img src="https://i.imgur.com/Mcd6HIg.jpg" width="60px" height="60px"></div>
+            <div class="d-flex flex-column pl-3">
+              <h4>Khoi Nguyen</h4>
+              <p class="grey-text">30 min ago</p>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <div class="green-text">
+              <h5 class="mb-0 pl-3">Best staffs ever!</h5>
+            </div>
+          </div>
+          <div class="row pb-3">
+            <p>
+              Port Arthur’s story did not end with the removal of the last convict. Over its long history, Port Arthur has been a place of hardship and punishment, a place of opportunity and leisure. Now the story of Australia’s colonial history is written in stone and brick. Many of the people who have passed through Port Arthur throughout its history have left a mark that lives on to this very day.
+            </p>
+          </div>
+          <div class="row ml-1">
+            <div class="row bg-light via">
+              <div class="px-2"><img src="https://i.imgur.com/8lJt6UN.png" width="18px" height="18px"></div>
+              <p class="grey-text mb-0 px-3">via Google</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
