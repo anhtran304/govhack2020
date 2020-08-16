@@ -15,10 +15,10 @@
         <h1 class="mb-5">Want to see what people love about Tasmania?</h1>
       </div>
       <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-        <form>
+        <form onsubmit="return false;">
           <div class="form-row">
             <div class="col-12 col-md-9 mb-2 mb-md-0">
-              <input type="email" class="form-control form-control-lg" placeholder="Enter a location name...">
+              <input type="text" class="form-control form-control-lg" placeholder="Enter a location name...">
             </div>
             <div class="col-12 col-md-3">
               <a href="{% url 'results' %}" class="btn btn-block btn-lg btn-primary">Show me!</a>
@@ -71,24 +71,28 @@
   <div class="container-fluid p-0">
     <div class="row no-gutters">
 
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/static/img/bg-showcase-1.jpg');"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img"
+        style="background-image: url('/static/img/bg-showcase-1.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2>From: Anh Tran</h2>
         <p class="lead mb-0">I love Tasmania</p>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 text-white showcase-img" style="background-image: url('/static/img/bg-showcase-2.jpg');"></div>
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('/static/img/bg-showcase-2.jpg');">
+      </div>
       <div class="col-lg-6 my-auto showcase-text">
         <h2>Khoi Nguyen's story</h2>
         <p class="lead mb-0">I went to Tasmania first time in 2019, where I found my love one and my soul mate</p>
       </div>
     </div>
     <div class="row no-gutters">
-      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/static/img/bg-showcase-3.jpg');"></div>
+      <div class="col-lg-6 order-lg-2 text-white showcase-img"
+        style="background-image: url('/static/img/bg-showcase-3.jpg');"></div>
       <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2>Make Tasmania become a place to fall in love with</h2>
-        <p class="lead mb-0">We are working eveyday to make every single place in Tasmania become better and easier to fall in love with</p>
+        <p class="lead mb-0">We are working eveyday to make every single place in Tasmania become better and easier to
+          fall in love with</p>
       </div>
     </div>
   </div>
@@ -101,7 +105,9 @@
     <div class="row mb-3">
       <div class="col-lg-4">
         <div class="teams-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/80329472_3245309575491782_1234776911184396288_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=W1PyeoGRJncAX9LVNlS&_nc_ht=scontent-syd2-1.xx&oh=62bcbb4793353a5bd1d32a42f8d722e2&oe=5F5F9D20" alt="">
+          <img class="img-fluid rounded-circle mb-3"
+            src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/80329472_3245309575491782_1234776911184396288_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=W1PyeoGRJncAX9LVNlS&_nc_ht=scontent-syd2-1.xx&oh=62bcbb4793353a5bd1d32a42f8d722e2&oe=5F5F9D20"
+            alt="">
           <h5>Khoi Nguyen</h5>
           <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
         </div>
@@ -115,57 +121,69 @@
       </div>
       <div class="col-lg-4">
         <div class="teams-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="/static/img/teams-3.jpg" alt="">
+          <img class="img-fluid rounded-circle mb-3"
+            src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/110316496_3122279711142389_9072045321036705696_n.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=gmeOGQrI4w0AX_q7NFA&_nc_ht=scontent-syd2-1.xx&oh=01c8b1efba0b20d82381ec5ebdc4d831&oe=5F601B7C"
+            alt="">
           <h5>Dung D.</h5>
           <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
         </div>
       </div>
     </div>
     <div class="row align-items-center">
-      <div class="col-lg-2">
-      </div>
       <div class="col-lg-4">
-          <div class="teams-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="/static/img/teams-1.jpg" alt="">
-            <h5>Ha N.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
+        <div class="teams-item mx-auto mb-5 mb-lg-0">
+          <img class="img-fluid rounded-circle mb-3"
+            src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/13567234_825922950878357_2491739647824691880_n.jpg?_nc_cat=102&_nc_sid=174925&_nc_ohc=ns3xqxoH83UAX_8Y6_m&_nc_ht=scontent-syd2-1.xx&oh=4a2b18eb9fa14ae85d1750bff02c7400&oe=5F5FC650"
+            alt="">
+          <h5>Phuong M.</h5>
+          <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+        </div>
       </div>
       <div class="col-lg-4">
         <div class="teams-item mx-auto mb-5 mb-lg-0">
-          <img class="img-fluid rounded-circle mb-3" src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/77368867_2018197694992955_3903817348678680576_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=6_sr4uMwyWgAX-MT7NO&_nc_ht=scontent-syd2-1.xx&oh=8e898e2e12e94ddffa8afbe66b7524f6&oe=5F5DEBA3" alt="">
-          <h5>Laurel Vo</h5>
-          <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+          <img class="img-fluid rounded-circle mb-3"
+            src="/static/img/teams-5.png"
+            alt="">
+          <h5>Ha N.</h5>
+          <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
         </div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-4">
+        <div class="teams-item mx-auto mb-5 mb-lg-0">
+          <img class="img-fluid rounded-circle mb-3"
+            src="https://scontent-syd2-1.xx.fbcdn.net/v/t1.0-9/77368867_2018197694992955_3903817348678680576_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=6_sr4uMwyWgAX-MT7NO&_nc_ht=scontent-syd2-1.xx&oh=8e898e2e12e94ddffa8afbe66b7524f6&oe=5F5DEBA3"
+            alt="">
+          <h5>Laurel Vo</h5>
+          <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice
+            landing pages."</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-  <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Falling in love with Tasmania? Sign up for the latest newsletter!</h2>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
+<!-- Call to Action -->
+<section class="call-to-action text-white text-center">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h2 class="mb-4">Falling in love with Tasmania? Sign up for the latest newsletter!</h2>
+      </div>
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <form>
+          <div class="form-row">
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
             </div>
-          </form>
-        </div>
+            <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 {% endblock %}
