@@ -106,7 +106,7 @@
   background: none repeat scroll 0 0 #606060;
   color: #fff;
 }
-.status-upload form button {
+.status-upload form .button {
   border: medium none;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -125,6 +125,6 @@
 .dropdown > a > span.green:before {
   border-left-color: #2dcb73;
 }
-.status-upload form button > i {
+.status-upload form .button > i {
   margin-right: 7px;
 }

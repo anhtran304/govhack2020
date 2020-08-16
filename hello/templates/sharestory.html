@@ -16,7 +16,10 @@
 							<input type="text" class="form-control" placeholder="Your name" aria-label="Your name" aria-describedby="addon-wrapping">
 						</div>
 						<div class="space input-group flex-nowrap">
-							<input type="email" class="form-control" placeholder="Email" aria-label="Your name" aria-describedby="addon-wrapping">
+							<input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="addon-wrapping">
+						</div>
+						<div class="space input-group flex-nowrap">
+							<input type="text" class="form-control" placeholder="Topic" aria-label="topic" aria-describedby="addon-wrapping">
 						</div>
             <textarea placeholder="Tell us your story"></textarea>
             <ul>
@@ -48,9 +51,9 @@
                 ></a>
               </li>
             </ul>
-            <button type="submit" class="btn btn-success green">
+            <a href="{% url 'details' %}" class="button btn btn-success green">
               <i class="fa fa-share"></i> Share
-            </button>
+						</a>
           </form>
         </div>
         <!-- Status Upload  -->
